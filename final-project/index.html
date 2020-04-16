@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="cxss/styles.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<a title="Apple" href ="index.html" class="navbar-brand">Home<height="auto" width="18%"></a>
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="keyboards.html">Keyboards</a></li>
+					<li><a href="#">Apple</a></li>
+					<li><a href="xbox.html">Xbox</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" >Social Media<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="https://www.instagram.com/aad1k/" target="_blank">Instagram</a></li>
+							<li><a href="https://www.facebook.com/apple/" target="_blank">Facebook</a></li>
+						</ul>
+					</li>
+					<li><a href="#contact" data-toggle="modal">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="jumbotron">
+			<center><h1>Aadi Katyal</h1>
+			<p>Buy cool products for lesser price</p>
+		</div>
+	</div>
+
+	<div class="container">
+		<center><h2>Newest Products:</h2></center>
+		<br></div>
+	</div>	
+
+
+	<div class="container" style="padding-bottom: 50px">
+		<div class="jumbotron">
+			<center><h3>Redragon Mechanical Gaming Keyboard</h3>
+			<h4>Retail Price: <mark>$19.99</mark></h4>
+			<h4>Original: $57.99</h4><br>
+			<img src="keyboard.png" style="max-width: 100%"><center><br>
+			<a href="https://www.redragonshop.com/collections/redragon-mechanical-keyboard/products/surara-k582" class="btn btn-default" target="_blank">Learn More</a>
+			<a href="redragon-K582.html"class="btn btn-primary">Buy Now</a></center>
+		</div>
+	</div>
+
+	<div class="container" style="padding-bottom: 50px">
+		<div class="jumbotron">
+			<center><h3>NBA 2K17: Standard Edition</h3>
+			<h4>Retail Price: <mark>$7.99</mark></h4>
+			<h4>Original: $59.99</h4><br>
+			<img src="2k17.jpg" style="max-width: 100%; width: 300px"><center><br>
+			<a href="https://www.microsoft.com/en-us/p/nba-2k17/c49tbj4dhfhw?activetab=pivot:overviewtab" class="btn btn-default" target="_blank">Learn More</a>
+			<a href="2k17.html"class="btn btn-primary">Buy Now</a></center>
+		</div>
+	</div>
+
+	<div class="container" style="padding-bottom: 50px">
+		<div class="jumbotron">
+			<center><h3>Halo 5: Guardians</h3>
+			<h4>Retail Price: <mark>$9.99</mark></h4>
+			<h4>Original: $59.99</h4><br>
+			<img src="halo.jpg" style="max-width: 100%; width: 300px"><center><br>
+			<a href="https://www.microsoft.com/en-us/p/halo-5-guardians/brrc2bp0g9p0?activetab=pivot:overviewtab" class="btn btn-default" target="_blank">Learn More</a>
+			<a href="halo.html"class="btn btn-primary">Buy Now</a></center>
+		</div>
+	</div>
+
+	<div class="navbar navbar-inverse navbar-fixed-bottom">
+		<div class="container">
+			<p class="navbar-text pull-left">Site Built by Aadi Katyal</p>
+			<a href="https://www.instagram.com/aad1k/" class="navbar-btn btn-primary btn pull-right" target="_blank">Follow My Instagram</a>
+		</div>
+	</div>
+
+	<div class="modal fade" id="contact">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<form class="form-horizontal" action="mailto:aadikatyal21@gmail.com" method="post">
+					<div class="modal-header">
+						<h4>Contact Me</h4>
+					</div>
+
+					<div class="modal-body">
+						<div class="form-group">
+							<label for="contact-name" class="col-lg-2">Name: </label>
+							<div class="col-lg-10">
+								<input type="text" class="form-control" id="contact-name" placeholder="Full Name">	
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="contact-name" class="col-lg-2">Email: </label>
+							<div class="col-lg-10">
+								<input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="contact-name" class="col-lg-2">Phone: </label>
+							<div class="col-lg-10">
+								<input type="email" class="form-control" id="contact-email" placeholder="(xxx) xxx-xxxx">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="contact-msg" class="col-lg-2">Product: </label>
+							<div class="col-lg-10">
+								<textarea class="form-control" rows="7" placeholder="Name of Product(s)"></textarea>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<a class="btn btn-default" data-dismiss="modal">Close</a>
+						<button class="btn btn-primary" type="submit"><form action="mailto:aadikatyal21@gmail.com"></form>Send</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
